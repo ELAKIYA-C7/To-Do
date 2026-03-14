@@ -10,12 +10,13 @@ function addTask() {
     const li = document.createElement('li');
     li.textContent = task;
 
-    // Click on a task to remove it
+    // Click a task to remove it
     li.onclick = function() {
         this.remove();
     };
 
     document.getElementById('taskList').appendChild(li);
 
-    input.value = ''; // clear input
+    // Clear input after adding
+    input.value = '';
 }
