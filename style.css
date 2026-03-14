@@ -1,43 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
-}
-
-h1 {
-    color: #333;
-}
-
-.todo-container {
-    margin-bottom: 20px;
-}
-
-input {
-    padding: 8px;
-    width: 200px;
-}
-
-button {
-    padding: 8px 12px;
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    background: #f0f0f0;
-    margin: 5px auto;
-    padding: 10px;
-    width: 220px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: 0.2s;
-}
-
-li:hover {
-    background: #dcdcdc;
-}
+body { font-family: Arial; margin: 20px; }
+input { padding: 5px; }
+button { padding: 5px; }
+li { margin: 5px 0; }
