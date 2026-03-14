@@ -1,8 +1,0 @@
-{
-  "name": "todo-app",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "echo Start app here",
-    "test": "echo Test passed"
-  }
-}
